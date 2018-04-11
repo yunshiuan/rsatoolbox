@@ -15,7 +15,7 @@ else
     h=figure;
 end
 
-if ~exist('horPos0123')||isempty(horPos0123), horPos0123=mod(mod(h,10),4); end
+if ~exist('horPos0123')||isempty(horPos0123), horPos0123=mod(mod(h.Number,10),4); end
 
 set(h,'Color','w');
 %set(h,'WindowStyle','docked');
